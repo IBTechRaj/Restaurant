@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans');
+
+
+:root{
+ --brightYellow:#E3B505;
+ --darkBrown:#BB9457;
+ --yellow:rgb(169, 180, 170,0.4); 
+ --brown:#382923;
+ --black:#191919;
+ --grey:#A9B2AC;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    background: url('../img/italian-pizza-restaurant-italy.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: aqua;
+  }
+
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  h2 {
+    color: aqua;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #tab-container {
+    width: 80%;
+    max-width: 800px;
+    height: 50px;
+    margin: auto;
+    float: left;
+    margin-right: 100px;
+    color: black;
+  }
+
+  .tab {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-right: -4px;
+    background-color: aqua;
+    
+  }
+
+  .label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .tab:hover {
+    background-color: var(--black) !important;
+    color: white !important;
+  }
+
+  /* about  */
+.about-container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr;
+  grid-gap: 2rem;
+}
+
+.about__img-item{
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 0.25rem;
+}
+@media screen and (min-width:768px){
+  .about__img-special{
+    order: -1;
+  }
+  .about-container{
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+#content {
+  padding: 50px;
+  background-color: var(--yellow);
+  height: auto;
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+}
+#content:hover {
+  background-color: var(--brown);
+}
