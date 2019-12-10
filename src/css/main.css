@@ -84,6 +84,9 @@ body {
   height: 100%;
   border-radius: 0.25rem;
 }
+p {
+  font-size: 15px;
+}
 @media screen and (min-width:768px){
   .about__img-special{
     order: -1;
