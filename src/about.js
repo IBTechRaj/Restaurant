@@ -1,4 +1,4 @@
-// 'about' page content module:
+// 'about' page 
 const about = () => {
     let content = document.getElementById('content');
 
