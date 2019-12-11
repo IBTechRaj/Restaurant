@@ -8,7 +8,7 @@ const contact = () => {
     content.appendChild(br2);
 
     const para1 = document.createElement('h2');
-    para1.innerHTML = "Find Us Here";
+    para1.innerHTML = 'Find Us Here';
     content.appendChild(para1);
 
 
