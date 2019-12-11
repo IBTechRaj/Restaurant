@@ -1,4 +1,4 @@
-// 'about' page 
+// 'about' page
 const about = () => {
     let content = document.getElementById('content');
 
@@ -17,13 +17,12 @@ const about = () => {
     content.appendChild(br2);
 
     const img = new Image(345, 200);
-    img.src = "../src/img/aboutImg-2.jpeg";
-    //img.width = 250;
+    img.src = '../src/img/aboutImg-2.jpeg';
+
     content.appendChild(img);
 
     const br3 = document.createElement('br');
     content.appendChild(br3);
-
 
 };
 
