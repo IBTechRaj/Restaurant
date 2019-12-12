@@ -1,6 +1,6 @@
 // 'contact' page content module:
 const contact = () => {
-    let content = document.getElementById('content');
+    const content = document.getElementById('content');
     const br1 = document.createElement('br');
     content.appendChild(br1);
 
