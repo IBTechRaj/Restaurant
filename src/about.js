@@ -24,4 +24,4 @@ const about = () => {
     const br3 = document.createElement('br');
     content.appendChild(br3);
 };
-export { about };
+export default { about };

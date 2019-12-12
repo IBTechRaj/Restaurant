@@ -41,8 +41,5 @@ const contact = () => {
     img.alt = "map missing";
 
     content.appendChild(img);
-
-
 };
-
 export { contact }
