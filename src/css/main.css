@@ -17,13 +17,13 @@
 }
 
 body {
-    background: url('../img/italian-pizza-restaurant-italy.jpg') no-repeat center center fixed;
+    background: url('../img/photo-1548696060-8fae845c6452.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    color: aqua;
+    color: greenyellow;
   }
 
   h1 {
@@ -32,19 +32,20 @@ body {
   }
 
   h2 {
-    color: aqua;
+    color: greenyellow;
     font-size: 24px;
     text-align: center;
   }
 
   #tab-container {
-    width: 80%;
-    max-width: 800px;
+    /* width: 80%; */
+    max-width: 100%;
     height: 50px;
-    margin: auto;
-    float: left;
-    margin-right: 100px;
+    margin: 20px auto 0 auto;
+    /* float: left; */
+    /* margin-right: 100px; */
     color: black;
+text-align: center;
   }
 
   .tab {
@@ -103,6 +104,7 @@ p {
   width: 400px;
   border-style: solid;
   border-width: 1px;
+  margin: auto;
 }
 #content:hover {
   background-color: var(--brown);
