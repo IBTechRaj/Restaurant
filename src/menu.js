@@ -71,9 +71,6 @@ const menu = () => {
   para12.innerHTML = 'Batter Fried Fish With Cheese Sauce';
   para12.style.textAlign = 'center';
   content.appendChild(para12);
-
-
 };
 
-export { menu }
-
+export default { menu };
