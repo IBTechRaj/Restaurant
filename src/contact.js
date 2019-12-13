@@ -42,4 +42,4 @@ const contact = () => {
 
   content.appendChild(img);
 };
-export { contact }
+export default { contact };
