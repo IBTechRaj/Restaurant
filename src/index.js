@@ -18,7 +18,7 @@ function tabClick(id) {
     }
   }
 
-  if (id == 0) {
+  if (id === 0) {
     about();
   } else if (id === 1) {
     menu();
@@ -32,8 +32,8 @@ const tab1 = document.getElementById('tab1');
 const tab2 = document.getElementById('tab2');
 const content = document.getElementById('content');
 
-tab0.addEventListener('click', function () { tabClick(0); });
-tab1.addEventListener('click', function () { tabClick(1); });
-tab2.addEventListener('click', function () { tabClick(2); });
+tab0.addEventListener('click', function =>() { tabClick(0); });
+tab1.addEventListener('click', function =>() { tabClick(1); });
+tab2.addEventListener('click', function =>() { tabClick(2); });
 
 tabClick(0);
