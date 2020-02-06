@@ -1,6 +1,6 @@
-import { about } from './about';
-import { menu } from './menu';
-import { contact } from './contact';
+import { about } from './about'
+import { menu } from './menu'
+import { contact } from './contact'
 
 function tabClick(id) {
   while (content.firstChild) {
@@ -32,8 +32,8 @@ const tab1 = document.getElementById('tab1');
 const tab2 = document.getElementById('tab2');
 const content = document.getElementById('content');
 
-tab0.addEventListener('click', function () { tabClick(0); });
-tab1.addEventListener('click', function () { tabClick(1); });
-tab2.addEventListener('click', function () { tabClick(2); });
+tab0.addEventListener("click", function () { tabClick(0) });
+tab1.addEventListener("click", function () { tabClick(1) });
+tab2.addEventListener("click", function () { tabClick(2) });
 
 tabClick(0);

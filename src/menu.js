@@ -73,4 +73,4 @@ const menu = () => {
   content.appendChild(para12);
 };
 
-export default { menu };
+export  { menu };
