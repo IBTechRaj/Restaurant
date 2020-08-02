@@ -24,12 +24,6 @@ Run 'npm start' to start the development server. It will automatically open the 
 
 Live Demo is not available.
 
-# Screen Shots
-
-# Contribute
-
-Feel free to contribute if you want to make it better.
-
 # Author
 
 - [Rajasekhar K ](https://github.com/IBTechRaj)
