@@ -1,0 +1,28 @@
+{
+  "name": "Restaurant",
+  "version": "1.0.0",
+  "description": "Project Restaurant, a solo project, started on 8th Dec 2019 as part of Microverse Curriculum",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBTechRaj/Restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IBTechRaj/Restaurant/issues"
+  },
+  "homepage": "https://github.com/IBTechRaj/Restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
